@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Testing"
+date:   2013-10-21 14:28:03
+photo: 	/assets/dummy.jpg
+---
+
+I need to learn why I'm wrong about what I'm building.
+
+I have been working on a new app project called Cloudgram over the past 7 weeks.  The idea is simple: an easier way to share photos and videos privately with family and friends.
+
+Building software on your own is hard.  You make all of the decisions both good and bad.  All of my decisions are assumptions until they are validated by real users.
+
+I sat down with Amy last week to walk her through how the app worked.  Within a minute I realized that I was wrong.  The data model and user experience needed to be redone.
+
+I had assumed that photo sharing would be a two way street.  Users would form trusted groups and share.  Once within a group users could create albums as a means of classifying a sets of photos.
+
+This assumption requires two concepts to be explained: groups and albums.  Amy was focused on how to share an album and control who could see it.  She also didn't like the implication that being part of a group meant having to see other people's albums in order to share her own with them.  In her mind, the album was the first class object; not the group.
+
+I spent the last week refactoring the app to be built around the single concept of a shareable album.  Groups no longer exist.  Everything got simpler: the data model, the UI and the pitch.
+
+Deciding *what* to build is always harder than actually building it.
+
+[Help me test Cloudgram for both iOS and later Android by signing up to my TestFlight account.](http://tflig.ht/15GTAM5) 
+
+Beta testing will begin later this week.
+
+I need all the help I can get.
+
+*[Join my mailing list to get updates about Cloudgram and other projects coming soon](http://eepurl.com/FyeXX)*

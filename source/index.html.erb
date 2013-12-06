@@ -1,0 +1,20 @@
+<div class="index">
+<h1>Hours</h1>
+<p>
+	I'm available for short term projects.  I'd prefer to work on iOS or Android apps.  <a href="http://linkedin.com/in/kyleshank">Hire me.</a>
+</p>
+<h1>Bits</h1>
+<ol>
+  <li><%=link_to "Cloudgram", "https://cloudgram.com"%></li>
+  <li><%=link_to "Swipe Stopper", "https://itunes.apple.com/us/app/swipe-stopper/id680261908?ls=1&mt=8"%></li>
+  <li><%=link_to "Donate Your Account", "http://donateyouraccount.com"%></li>
+  <li><%=link_to "apt-s3", "http://github.com/kyleshank/apt-s3"%></li>
+  <li><%=link_to "RadRails", "http://en.wikipedia.org/wiki/RadRails"%></li>
+</ol>
+<h1>Words</h1>
+<ol>
+  <% blog.articles[0...10].each do |article| %>
+    <li><%= link_to article.title, article %></li>
+  <% end %>
+</ol>
+</div>
