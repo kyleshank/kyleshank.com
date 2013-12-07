@@ -5,10 +5,10 @@ date:   2013-10-01 15:07:03
 photo: 	/assets/summer2013.png
 ---
 
-<img src="/images/summer2013.jpg">
-
 The Wedding
 ===========
+
+<img src="/images/summer2013.jpg">
 
 The photo above was taken just moments before guests arrived.  
 
