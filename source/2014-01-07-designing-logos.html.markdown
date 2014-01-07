@@ -22,6 +22,6 @@ FANS.FM, Cloudgram and Swipe Stopper all feature logos with a flat design.  I'm 
 
 <img src="/images/swipestopper.png">
 
-The flat logo approach is extremely practical when designing mobile applications both iOS and Android devices.  Android encourages app icons that have a defined shape with a transparent background while iOS requires a defined background.  App icons on Android end up being used in places like the notification and action bar where an app icon that blends in with transparency looks much better than the alternative.  The white cloud within the Cloudgram logo is a clear and defined shape that can stand on its own on Android.  I kept this in mind when designing the FANS.FM logo.
+The flat logo approach is extremely practical when designing mobile applications for both iOS and Android devices.  Android encourages app icons that have a defined shape with a transparent background while iOS requires a defined background.  App icons on Android end up being used in places like the notification area and action bar where an app icon that blends in with transparency looks much better than the alternative.  The white cloud within the Cloudgram logo is a clear and defined shape that can stand on its own on Android.  I kept this in mind when designing the FANS.FM logo.
 
 I've always tried to do my own graphics despite being a programmer.  I started with Photoshop in 1998 and finally got into Illustrator within the past few years.  I try to work within my limits as a designer but always seek to challenge myself artistically.
