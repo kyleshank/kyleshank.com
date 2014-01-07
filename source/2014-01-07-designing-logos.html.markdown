@@ -12,7 +12,7 @@ Here is my latest design for my upcoming project FANS.FM:
 
 It's supposed to remind you of an old broadcast microphone.  Sometimes I look at it and it makes me think about a tree.  Before I added the curved details in the center Amy thought it looked like a ribcage.
 
-FANS.FM is going to be a radio product so I wanted to the brand to evoke a time when radio was awesome.
+FANS.FM is going to be a radio product so I wanted the brand to evoke a time when radio was awesome.
 
 <img src="/images/fansfmLogoBrand.png">
 
