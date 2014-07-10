@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Swipe Stopper"
 date:   2013-12-30 22:56:00
 ---

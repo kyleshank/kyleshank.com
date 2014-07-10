@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Cloudgram release"
 date:   2013-12-12 19:00:00
 ---

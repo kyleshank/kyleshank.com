@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Netroots Nation 2014"
 date:   2014-06-20 13:47:00
 ---

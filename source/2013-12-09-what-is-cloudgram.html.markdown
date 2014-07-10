@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "What is Cloudgram?"
 date:   2013-12-09 23:27:00
 ---

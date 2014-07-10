@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Make pilots, not startups"
 date:   2014-01-02 18:12:00
 ---

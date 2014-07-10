@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Static features should have static solutions"
 date:   2014-01-23 13:56:00
 ---

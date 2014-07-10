@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Soft Launch"
 date:   2014-01-16 16:06:00
 ---

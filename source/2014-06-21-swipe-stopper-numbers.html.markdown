@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Swipe Stopper by the Numbers"
 date:   2014-06-21 16:19:00
 ---

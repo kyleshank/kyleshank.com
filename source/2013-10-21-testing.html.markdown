@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Testing"
 date:   2013-10-21 14:28:03
 photo: 	/assets/dummy.jpg

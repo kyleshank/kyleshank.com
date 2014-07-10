@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Update Update"
 date:   2014-01-03 23:32:00
 ---

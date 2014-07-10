@@ -1,19 +1,11 @@
-<div class="index">
-<p>
-  I founded and work at <a href="http://formalmethod.net">Formal Method</a>.</p>
-</p>
-<h1>Bits</h1>
-<ol>
-  <li><%=link_to "Cloudgram", "/2013/12/12/cloudgram-release.html"%></li>
-  <li><%=link_to "Swipe Stopper", "/2013/12/30/swipe-stopper.html"%></li>
-  <li><%=link_to "Donate Your Account", "http://donateyouraccount.com"%></li>
-  <li><%=link_to "apt-s3", "http://github.com/kyleshank/apt-s3"%></li>
-  <li><%=link_to "RadRails", "http://en.wikipedia.org/wiki/RadRails"%></li>
-</ol>
-<h1>Words</h1>
-<ol>
-  <% blog.articles[0...20].each do |article| %>
-    <li><%= link_to article.title, article %></li>
-  <% end %>
-</ol>
-</div>
+<% blog.articles[0...10].each do |article| %>
+  <article>
+    <h1>
+      <a href="<%= article.url %>"><%= article.title %></a>
+    </h1>
+
+    <%= article.summary %>
+
+		<a href="<%= article.url %>">Read more</a>
+  </article>
+<% end %>

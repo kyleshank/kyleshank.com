@@ -1,93 +1,50 @@
-@charset "utf-8";
-
-body{
-	margin: 1em 0.5em;
-	background: #fff;
+.nav .fa span.visible-xs{
+	padding-left: 6px;
 }
 
-.index a, .index a:visited{
-	color: #666;
-}
-
-.index h1{
-	font-size: 1.6em;
-	margin: 0.5em 0;
-	text-transform: uppercase;
-}
-
-.index ol, .index ul{
-	list-style: none;
-	margin: 0 0 1em 0;
-	padding: 0;
-}
-
-.container{
-	max-width: 700px;
-	margin: 0 auto;
-}
-
-.post .heading{
-	font-size: 4em;
-	margin: 0;
-}
-
-.post .content{
-	line-height: 1.2;
-	font-size: 1.4em;
-}
-
-.post p{
-	margin: 1em 0;
-}
-
-.footer{
-	margin: 2em 0 4em 0;
-}
-
-.footer .text{
-	display: none;
-}
-
-.footer ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.footer li{
-	float: left;
-}
-
-.footer li a, .footer li a:visited{
-	color: #000;
-	margin-right: 0.25em;
-	text-decoration: none;
-	font-size: 2em;
-}
-
-.date{
-	color: #333;
-}
-
-.heading a, .heading a:visited{
-	color: #000;
-	text-decoration: none;
-}
-
-.content img{
+img {
 	max-width: 100%;
-	border: 1px solid #ccc;
 }
 
-.pagination{
-	float: right;
-	color: #bbb;
-	}
-
-.pagination a, .pagination a:visited{
-	color: #bbb;
+article{
+	clear: left;
+	padding-bottom: 2em;
+	color: #000;
+	font-size: 16pt;
 }
 
-.logo img{
-	width: 320px;
+article p{
+	line-height: 1.1;
+	font-weight: 300;
+}
+
+article h1{
+	word-wrap:break-word;
+	font-size: 32pt;
+}
+
+article h1 a{
+	color: #000;
+	text-decoration: none;
+}
+
+article .meta{
+	list-style: none;
+	margin: 1em 0;
+	padding: 0;
+}
+
+article .meta li{
+	float: left;
+	margin-right: 6px;
+}
+
+article time{
+	color: #aaa;
+	display: block;
+}
+
+.navbar-brand{
+	text-transform: uppercase;
+	font-weight: bold;
 }

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Loki"
 date:   2014-06-19 13:30:00
 ---

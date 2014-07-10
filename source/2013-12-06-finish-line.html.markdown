@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Finish Line"
 date:   2013-12-06 18:50:00
 ---

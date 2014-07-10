@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Designing Logos"
 date:   2014-01-07 14:40:00
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Donate Your Account Redesign"
 date:   2014-06-17 23:14:00
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "World Cup Podcast"
 date:   2014-06-18 15:14:00
 ---
