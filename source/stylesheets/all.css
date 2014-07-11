@@ -22,6 +22,7 @@ article p{
 article h1{
 	word-wrap:break-word;
 	font-size: 32pt;
+	font-weight: 600;
 }
 
 article h1 a{
