@@ -20,6 +20,4 @@ Swipe Stopper is a solution to this problem.  The app allows you to select the p
 
 It goes without saying that whoever would do this would be a *terrible* friend.  People are nosy and not just friends.  Imagine sharing an iPad with photos at a family gathering.  Wouldn't you feel better knowing that the iPad is only displaying the photos you've selected as its passed from aunt to uncle to grandma and nephew?
 
-It's just 99 pennies to avoid these awkward situations.
-
 [Get Swipe Stopper for iPhone and iPad](https://itunes.apple.com/us/app/swipe-stopper/id680261908?ls=1&mt=8)
