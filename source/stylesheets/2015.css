@@ -1,0 +1,25 @@
+body {
+	font-family: Inconsolata, 'Helvetica Neue', Helvetica, Arial;
+	margin: 1em;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+article {
+	line-height: 1.58;
+	font-size: 21px;
+	margin-bottom: 4em;
+}
+
+article h1 {
+	line-height: 1.1;
+}
+
+cite {
+	display: block;
+	font-style: normal;
+}
+
+time {
+	color: #999;
+}
