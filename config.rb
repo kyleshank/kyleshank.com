@@ -41,6 +41,8 @@ activate :s3_sync  do |s3_sync|
   s3_sync.encryption                 = false
 end
 
+activate :syntax
+
 page "/rss.xml", layout: false
 
 ###

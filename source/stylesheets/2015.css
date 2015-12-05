@@ -24,3 +24,16 @@ cite {
 time {
 	color: #999;
 }
+
+.highlight {
+	border-radius: 5px;
+	padding: 1em;
+	overflow-x: scroll;
+}
+
+code {
+	line-height: 1.1;
+	font-size: 17px;
+}
+
+//= require "rogue"
