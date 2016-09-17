@@ -1,0 +1,16 @@
+---
+title: FANS.FM 1.0
+date: 2016-09-17 07:31 EDT
+tags:
+---
+<iframe width="100%" height="74" src="http://embed.fans.fm/22p.html" frameborder="0" allowfullscreen></iframe>
+
+This week I finally released the new version of [FANS.FM](https://fans.fm).  It's a podcasting service that lets you start a podcast for free, get detailed audience analytics and earn revenue from recurring member subscriptions to premium content.
+
+I primarily built many of the new features to support the Majority Report and Ring of Fire Radio.  They are both podcasts that have a free and premium offering.  The premium offering is supported by paying members who then get access to private episodes to support the program.  Their membership systems were incomplete.  In the case of the Majority Report (and many other podcasts like this) members donated over PayPal and a person would manually have to manage creating an account for the new member in Wordpress.  Any changes, payment failures or cancellations required a person to manually get involved.
+
+FANS.FM now has a robust membership system built on top of Stripe.  The Majority Report and Ring of Fire have been using in production all year and its gone really well.  Everything is automated.  Members can sign up and get access instantly, log in to see premium content and get their own authenticated and private member RSS feed to listen in any podcast client.  Members can also manage their membership, see transactions and cancel their membership at any time.  Podcast owners can just as easily manage all of their members, view accounts, refund transactions and create complimentary memberships.
+
+Another key feature I've focused on is Analytics.  FANS.FM can now show you where your audience comes from, whats popular and even which episodes had the highest retention.  There is a lot more that I want to build into the Analytics feature that I'll be talking about soon.
+
+FANS.FM is still not where I want it to be.  The user experience and design could be a lot better.  It's hard to both develop every line of code and design a good product. I've made tradeoffs and tried to produce a robust feature set that is usable.
