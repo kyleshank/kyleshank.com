@@ -1,9 +1,0 @@
----
-title: "2016"
-date: 2016-01-01 13:01 EST
----
-My 2016 Resolutions:
-
-* Read at least one book a month
-* Write at least once a week
-* Listen more

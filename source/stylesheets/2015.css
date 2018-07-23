@@ -36,4 +36,9 @@ code {
 	font-size: 17px;
 }
 
+.home, .home:visited {
+	text-decoration: none;
+	color: #333;
+}
+
 //= require "rogue"
