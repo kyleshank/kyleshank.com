@@ -13,6 +13,11 @@ header {
 	align-items: center;
 }
 
+header h1 a, header h1 a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
 article {
 	line-height: 1.58;
 	font-size: 21px;
