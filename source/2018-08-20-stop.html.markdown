@@ -1,0 +1,15 @@
+---
+title: Stop
+date: 2018-08-20 17:24 EDT
+tags:
+---
+
+I've been working on a new systems programming language called Stop.  The project goal is to develop a way to express software systems without thinking in terms of specific implementation languages.
+
+There is a good rundown of the language at [https://stop-lang.org](https://stop-lang.org).
+
+Stop is open source and available on [GitHub](https://github.com/pocketlabs/stop).
+
+There is also a Stop editor featuring syntax highlighting and real-time validation.  The editor is [open source](https://github.com/pocketlabs/stop-editor) and available at [https://editor.stop-lang.org](https://editor.stop-lang.org).
+
+Stop is still a work in progress and I'll have a lot more to say about it and a runtime that pairs with it soon.
