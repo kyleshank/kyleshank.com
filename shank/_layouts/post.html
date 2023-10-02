@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="post">
+  <p class="post-meta">
+    <a href="/">..</a><time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+  </p>
+  <h1>{{ page.title }}</h1>
+  <div class="content">
+    {{ content }}
+  </div>
+</div>
