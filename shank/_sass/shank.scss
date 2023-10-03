@@ -77,7 +77,6 @@ body {
         }
       }
       .copyright {
-        
       }
     }
   }
@@ -146,4 +145,10 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
