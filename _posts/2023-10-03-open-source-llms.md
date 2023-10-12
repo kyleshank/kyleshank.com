@@ -4,6 +4,8 @@ title: Open Source LLMs
 date: 2023-10-03 14:59 -0700
 ---
 
+![blocks](/assets/images/00054-2179160345.png)
+
 I am currently working on an AI project and have been paying very close attention to the developments in open source LLMs since March of this year when [Meta's LLM "Llama"](https://ai.meta.com/llama/) was [leaked](https://github.com/facebookresearch/llama/pull/73#issuecomment-1456338060).  I was able to get the small 7B model to run locally on my PC on an RTX 3080 10GB video card.  While the 7B model leaves a lot to be desired I had something that felt like ChatGPT running locally.  Incredible.
 
 Meta has since formally released a second version of the Llama model along with a code generating model and a lot more ceremony and documentation.  It's a smart strategy.  Meta is looking to influence the majority of the LLM market through a bold open source strategy.  Everyone is using Llama as a foundation to build and train their models.  Meta stands to benefit not only from the outsourced development but also from its position as a resourceful leader in the space.
