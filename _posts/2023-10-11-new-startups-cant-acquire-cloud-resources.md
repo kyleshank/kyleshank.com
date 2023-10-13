@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New startups can’t acquire cloud resources
-date: 2023-10-10 15:09 -0700
+date: 2023-10-11 15:09 -0700
 ---
 
 ![the struggle of the cloud](/assets/images/00049-495422607.png)
