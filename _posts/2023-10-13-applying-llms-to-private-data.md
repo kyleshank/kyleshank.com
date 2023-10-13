@@ -2,9 +2,8 @@
 layout: post
 title: Applying LLMs to private data
 date: 2023-10-13 08:51 -0700
+image: /assets/images/00015-2670550850.png
 ---
-
-![code chains](/assets/images/00015-2670550850.png)
 
 Over the past year I have been focused on how to apply LLMs to private data.  At first I thought training on top of an existing LLM would make sense based on my previous machine learning experience.  Quickly it became clear that wouldn’t deliver the results one would expect.  Prompt engineering with clever and long context windows establishing a basis for an eventual question was the way to go.  [LlamaIndex](https://www.llamaindex.ai/) is a framework that does just that.
 

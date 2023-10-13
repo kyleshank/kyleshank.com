@@ -2,9 +2,8 @@
 layout: post
 title: AWS Bedrock
 date: 2023-10-09 12:00 -0700
+image: /assets/images/00061-2879122536.png
 ---
-
-![the rock](/assets/images/00061-2879122536.png)
 
 AWS has just [launched a new service called Bedrock for running foundation and custom generative AI models](https://aws.amazon.com/bedrock/).  At first glance this looks like an extremely convenient way to deploy open source foundational models and customizations of them.  Additionally, it would allow businesses to utilize LLMs within their account and private VPCs without having to ship customer data in a zillion plaintext calls to 3rd parties like OpenAI.
 

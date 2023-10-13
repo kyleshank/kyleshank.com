@@ -59,7 +59,38 @@ body {
       width: auto;
     }
     > .main {
-
+      .featured {
+        .featured-post {
+          display: block;
+          position: relative;
+          text-decoration: none;
+          &:visited {
+            text-decoration: none;
+          }
+          img {
+            width: 100%;
+          }
+          span {
+            position: absolute;
+            right: 8px;
+            bottom: 8px;
+            font-size: 2rem;
+            color: #000;
+            font-weight: bold;
+            text-align: right;
+            z-index: 2;
+          }
+          .overlay {
+            background: linear-gradient(0deg, #fff, transparent);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            top: 0;
+            left: 0;
+          }
+        }
+      }
     }
     > .footer {
       display: flex;

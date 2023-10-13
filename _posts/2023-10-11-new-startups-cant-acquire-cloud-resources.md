@@ -2,9 +2,8 @@
 layout: post
 title: New startups can’t acquire cloud resources
 date: 2023-10-11 15:09 -0700
+image: /assets/images/00049-495422607.png
 ---
-
-![the struggle of the cloud](/assets/images/00049-495422607.png)
 
 This is more of a public service announcement than a post but its worth stating: new cloud accounts at AWS, Google and beyond have severe service quota limitations on resources.  Nearly all services have a service quota default of zero when the new account is created.  All services that require accelerated GPU resources will certainly start with a quota of zero.
 
