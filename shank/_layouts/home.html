@@ -3,25 +3,18 @@ layout: default
 ---
 {%-assign posts = site.posts-%}
 
-<div class="featured">
+<div class="home">
   {%- for post in posts -%}
-    {% if post.image %}
-      <a class="featured-post" href="{{ post.url | relative_url }}">
-        <img src="{{post.image}}" alt="{{post.title}}"/>
-        <div class="overlay"></div>
-        <span>{{ post.title }}</span>
-      </a>
-    {% endif %}
+      <div class="post">
+        <p class="post-meta">
+          <time datetime="{{ post.date }}">{{ post.date | date: site.theme_config.date_format }}</time>
+        </p>
+        <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
+        <div class="content">
+          {{ post.content }}
+        </div>
+      </div>
   {%- endfor -%}
 </div>
-
-<ul>
-  {%- for post in posts -%}
-      <li>
-        <span>{{- post.date | date: site.theme_config.date_format -}}</span>
-        <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
-      </li>
-  {%- endfor -%}
-</ul>
 
 <div class="nav"><a href="/about/index.html">about</a></div>

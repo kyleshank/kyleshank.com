@@ -182,4 +182,18 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 4rem 0 0 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  .post {
+    .post-meta{
+      margin: 0;
+      justify-content: end;
+      color: gray;
+    }
+  }
 }
