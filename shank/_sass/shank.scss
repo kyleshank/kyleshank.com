@@ -13,6 +13,7 @@ body[a="dark"] { @include dark-appearance; }
 
 @media (prefers-color-scheme: dark) {
   body[a="auto"] { @include dark-appearance; }
+  html{background-color: black !important;}
 }
 // -------------------------------------------- //
 
