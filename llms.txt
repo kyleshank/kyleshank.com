@@ -1,0 +1,14 @@
+---
+layout: null
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+## Blog Posts
+{% for post in site.posts limit:20 %}
+- [{{ post.title }}](https://raw.githubusercontent.com/kyleshank/kyleshank.com/refs/heads/main/{{ post.path }}): {{ post.excerpt | strip_html | truncate: 150 }}
+{% endfor %}
+
+## Key Pages
+- [About Me]({{ site.url }}/about/): Professional background and contact info.
