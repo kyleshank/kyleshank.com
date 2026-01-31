@@ -30,6 +30,12 @@ permalink: /:slug.html
 
 # Build settings
 theme: shank
+exclude:
+  - deploy.sh
+  - package-lock.json
+  - package.json
+  - wrangler.toml
+  - ping.sh
 plugins:
   - jekyll-feed
   - jekyll-sitemap
