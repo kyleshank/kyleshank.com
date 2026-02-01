@@ -62,3 +62,10 @@ else
     echo "⚠️  Ping failed with status code: $RESPONSE"
     echo "Check if your key matches the content of $BASE_URL/$KEY_FILE"
 fi
+
+curl -s "https://web.archive.org/save/$FULL_URL" > /dev/null
+echo "🗄️ Sent to WayBack Machine for archival."
+
+curl -s -d "hub.mode=publish" -d "hub.url=$BASE_URL/rss.xml" \
+     "https://pubsubhubbub.appspot.com/"
+echo "📡 WebSub hub notified."
