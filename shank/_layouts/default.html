@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 
   <title>
     {%- if page.title -%}
@@ -18,19 +20,13 @@
 
   <link rel="alternate" type="application/rss+xml" title="Kyle Shank" href="/rss.xml" />
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
+  <link rel="preload" href="/assets/main.css" as="style">
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}" />
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN0PHQWJY1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RN0PHQWJY1');
-</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
 <body a="{{ site.theme_config.appearance | default: "auto" }}">
-  <div class="container">
+  <main class="container" role="main">
     <div class="main">
       {{ content }}
     </div>
@@ -38,6 +34,6 @@
       <div class="cc"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><span>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></span></div>
       <div class="copyright">&copy;2026 <a href="/">Kyle Shank</a></div>
     </div>
-  </div>
+  </main>
 </body>
 </html>
