@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing with timers in Anatype
-date: 2026-01-31 16:32 -0700
+date: 2026-01-31 16:32 -0800
 ---
 
 [Anatype](https://anatype.com) now has a very simple timer feature to pace your writing.  You can easily start a 5, 10, 15, 20, 30 or 60 minute timer from the menu or with a key command.  Simply select from the Timer menu to start one.  You'll hear a sound of a timer starting when initiated and an  ending sound when time is up.
