@@ -42,6 +42,20 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: 
+    - year
+    - month
+    - categories
+    - tags
+  layout: 'archive' # Looks for _layouts/archive.html
+  permalinks:
+    year: '/archive/:year/'
+    month: '/archive/:year/:month/'
+    category: '/category/:name/'
+    tag: '/tag/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+
+<h2>Archive</h2>
+<ul>
+  {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in postsByYear %}
+    <li>
+      <!-- This link works if using the jekyll-archives plugin -->
+      <a href="/archive/{{ year.name }}/">{{ year.name }}</a> ({{ year.items | size }} posts)
+    </li>
+  {% endfor %}
+</ul>

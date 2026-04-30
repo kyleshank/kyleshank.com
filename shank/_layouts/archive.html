@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h1>
+  {% if page.type == 'year' %}
+    Archive for {{ page.date | date: '%Y' }}
+  {% elsif page.type == 'month' %}
+    Archive for {{ page.date | date: '%B %Y' }}
+  {% else %}
+    Archive: {{ page.title }}
+  {% endif %}
+</h1>
+
+<ul>
+  <!-- CRITICAL CHANGE: Use page.posts instead of site.posts -->
+  {% for post in page.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> 
+      <small>({{ post.date | date: "%b %d" }})</small>
+    </li>
+  {% endfor %}
+</ul>
