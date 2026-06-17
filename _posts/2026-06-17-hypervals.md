@@ -6,7 +6,7 @@ date: 2026-06-17 07:31 -0700
 
 I lose track of time.  I tend to go into a very deep focus while working.  I spend amounts of time I never intended on low priority items.  I get distracted.
 
-My solution: Hypervals.
+My solution: [Hypervals](https://hypervals.com).
 
 A Hyperval is a interval of focused work.  Think of work as HIIT training where we are committing to an interval of intensity with rest waiting for us at the end.  Set your interval duration and get it done.
 
