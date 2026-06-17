@@ -24,6 +24,6 @@ The app uses CloudKit for storage and data synchronization that is private to yo
 
 Try it out!
 
-[Get Anatype on the Mac App Store](https://apps.apple.com/us/app/Hypervals/id6766101866)
+[Get Hypervals on the Mac App Store](https://apps.apple.com/us/app/Hypervals/id6766101866)
 
-[Get Anatype on the iOS App Store](https://apps.apple.com/us/app/Hypervals/id6766101866)
+[Get Hypervals on the iOS App Store](https://apps.apple.com/us/app/Hypervals/id6766101866)
